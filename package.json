@@ -1,0 +1,21 @@
+{
+  "name": "typedoc-plugin-icon-link",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "files": ["lib/*"],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepack": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Lan",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "typedoc": "^0.26.8"
+  }
+}

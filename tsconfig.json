@@ -1,0 +1,11 @@
+{
+  "include": ["./src/*"],
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "Node16",
+    "sourceMap": true,
+    "lib": ["es2015", "dom", "esnext.disposable"],
+    "outDir": "./lib",
+    "strict": true
+  }
+}
